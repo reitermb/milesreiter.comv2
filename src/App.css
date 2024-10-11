@@ -32,7 +32,6 @@
       text-shadow: -2px -2px 0 #fffcf3, 0 -2px 0 #fffcf3, 2px -2px 0 #fffcf3, 2px 0 0 #fffcf3, 2px 2px 0 #fffcf3, 0 2px 0 #fffcf3, -2px 2px 0 #fffcf3, -2px 0 0 #fffcf3;
               width: 100%;
         z-index: -1;
-        position: absolute;
         left: 0;
         bottom: -3px;
         height: 10px;
