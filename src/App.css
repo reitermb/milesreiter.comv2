@@ -37,6 +37,9 @@
   border-bottom: 20px #000;
   border-radius: 0;
   transition: all .2s;
+  margin: auto;
+  width: 60%;
+  max-width: 1400px;
 }
 
 p {
@@ -47,7 +50,6 @@ p {
   margin-left: 0;
   padding-left: 0;
   padding-right: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 1.4em;
   line-height: 24px;
   overflow: visible;
@@ -91,16 +93,13 @@ h1 {
       text-shadow: -2px -2px 0 #fffcf3, 0 -2px 0 #fffcf3, 2px -2px 0 #fffcf3, 2px 0 0 #fffcf3, 2px 2px 0 #fffcf3, 0 2px 0 #fffcf3, -2px 2px 0 #fffcf3, -2px 0 0 #fffcf3;
               width: 100%;
         z-index: -1;
-        left: 0;
-        bottom: -3px;
-        height: 10px;
-        background: #30e8bf;
+        margin-top: 100px;
+/*        height: 12px;
         background: -webkit-linear-gradient(to right, #d8ffac, #acffcf, #acffff);
-        background: linear-gradient(to right, #d8ffac, #acffcf, #acffff);
-    align-self: flex-start;
-    margin-bottom: 20px;
-    font-size: 3em;
-    line-height: 1.3em;
+        background: linear-gradient(to right, #d8ffac, #acffcf, #acffff);*/
+    font-size: 3.5em;
+    margin-bottom: -10px;
+
   
 }
 
@@ -126,10 +125,83 @@ h3 {
 .section {
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  width: 60%;
+  align-items: flex-start;  
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
   position: relative;
+}
+
+.underliner {
+  border-bottom: 12px solid transparent;
+  border-image: linear-gradient(to right, #d8ffac, #acffcf, #acffff);
+  border-image-slice: 1;
+  margin-bottom: 16px;
+}
+
+.newsreader-newshead {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.lato-thin {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: italic;
 }
